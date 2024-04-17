@@ -1,3 +1,6 @@
 # Nepal Stock Price Scraper
 
-This project is a web scraper for fetching daily stock prices from the Nepal Stock Exchange website. It uses Puppeteer for web scraping and Node Cron for scheduling the scraper to run daily at 11:O0 AM, just when market opens.
+This project is a web scraper for fetching daily stock prices from the Nepal Stock Exchange website. The scrapping function is scheduled to run everyday at 11:00 AM just when the market opens.
+
+## It uses puppeteer for web scraping
+- Node Cron for scheduling
