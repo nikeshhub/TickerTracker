@@ -75,6 +75,6 @@ const getTodaysPrice = async () => {
   await browser.close();
 };
 
-cron.schedule("0 11 * * *", getTodaysPrice, {
+cron.schedule("0 9 * * *", getTodaysPrice, {
   timezone: "Asia/Kathmandu",
 });
